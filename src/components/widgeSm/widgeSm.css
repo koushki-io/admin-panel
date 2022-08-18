@@ -1,0 +1,49 @@
+.WidgeSm{
+    flex: 1;
+    box-shadow: rgba(2, 1, 1, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.widge-title{
+    font-size:1.5erm ;
+    font-weight: 600;
+
+}
+.widgeSm-list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+
+}
+.widgeSm-list-item img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.widgeSm-User{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.widgeSm-UserName,
+.widgeSm-UserTitle{
+    font-weight:600 ;
+}
+.widgeSm-btn{
+    display: flex;
+    align-items: center;
+    border-radius:7px 10px;
+    padding: 10px;
+    background:#eeeef7 ;
+    cursor: pointer;
+    color: #555;
+}
+.widge-icon{
+    font-size: 1rem !important;
+    margin-right: 10px;
+}
+

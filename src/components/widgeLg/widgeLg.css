@@ -1,0 +1,66 @@
+.WidgeLg{
+    flex: 2;
+    box-shadow: rgba(2, 1, 1, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 10px;
+    
+
+}
+.widgeLg-title{
+    font-size:1.5rem;
+    font-weight: 600;
+
+}
+.widgeLg-table{
+    width: 100%;
+    border-spacing:20px ;
+}
+.widgeLg-th{
+    text-align: left;
+
+}
+.widgeLg-user{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.widgeLg-date,
+.widgeLg-amount{
+font-size: 1rem;
+font-weight: 300;
+}
+
+.widgeLg-tr img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.widgeLg-Button{
+    padding: 5px 7px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+.widgeLg-Button.Approved{
+    background: #e5faf2;
+    color:#3bb077 ;
+}
+
+.widgeLg-Button.declined{
+    background: #fff0f1;
+    color:#d95087 ;
+}
+
+
+.widgeLg-Button.pending{
+    background: #ebf1fe;
+    color:#3bb077 ;
+}
+.widgeLg-user{
+    display: flex;
+    align-items: center;
+}

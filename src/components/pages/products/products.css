@@ -1,0 +1,31 @@
+.Products{
+    flex: 4;
+    height: 80vh;
+}
+.product-list-img {
+    display: flex;
+    align-items: center;
+
+}
+.product-list-img img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+   
+}
+
+
+.product-edite{
+  color: #fff;
+  background: #3bb007;
+  border-radius: 20px;
+  cursor: pointer;padding: 5px 10px;
+  margin-right: 10px;
+
+}
+.product-remove{
+    color:rgb(172, 0, 0);
+    cursor: pointer;
+}

@@ -1,0 +1,144 @@
+.ProductId{
+    flex: 4;
+    padding: 20px;
+    
+   
+
+}
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.prduct-add-btn{
+    width: 80px;
+    padding: 5px;
+    color: #fff;
+    background-color: teal;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.product-top{
+    display: flex; 
+
+  
+}
+
+.product-top-left{
+    flex: 2;
+}
+.product-top-right{
+    flex: 1;
+    box-shadow: rgba(2, 1, 1, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  
+}
+.product-top-info img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+   
+
+}
+.product-top-info span{
+    font-weight: bold;
+}
+.product-info-item{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.product-top-info{
+    display: flex;
+    align-items: center;
+
+}
+.infoValue{
+    font-weight: 300;
+
+
+}
+.product-upload img{
+width: 100px;
+height: 100px;
+
+border-radius: 10px;
+}
+.product-bottom{
+    padding: 20px;
+    margin: 20px;
+    box-shadow:rgba(0, 0, 0, 0.35) 0 5px 15px ;
+    border-radius: 20px;
+
+}
+
+.product-bottom form{
+    display: flex;
+    justify-content: space-between;
+
+}
+.productForm-left{
+    display: flex;
+    flex-direction: column;
+
+}
+.productForm-left label{
+    margin-bottom: 10px;
+    color: gray;
+}
+.productForm-left input{
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.productForm-left select{
+    margin-bottom: 10px;
+    outline: none;
+  
+}
+
+.productForm-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.productForm-right{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;   
+}
+.product-upload{
+    display: flex;
+    align-items: center;
+}
+.product-upload label{
+    cursor: pointer;
+}
+.product-btn{
+    padding: 5px;
+    border-radius: 5px;
+    background: darkblue;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+@media (max-width:1200px) {
+    .product-top{
+        flex-direction: column;
+    }
+    
+    .product-container{
+            padding:0 40px ;
+    }
+}

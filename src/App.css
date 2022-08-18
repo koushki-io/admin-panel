@@ -1,0 +1,28 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    display: flex;
+    
+}
+.other{
+    flex: 4;
+
+}
+.homeWidge{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+@media (max-width:1150px) {
+    .homeWidge{
+        flex-direction: column;
+    }
+    
+    
+}

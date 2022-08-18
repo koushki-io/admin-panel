@@ -1,0 +1,77 @@
+.NewUser{
+    flex: 4;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: flex-start;
+
+}
+.NewUser h1{
+    justify-self: flex-start;
+
+
+}
+.NewUser form{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.new-user-item{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 0 0 ;
+
+}
+.new-user-item label{
+    margin-bottom: 10px;
+    font-size: .9rem;
+    font-weight: 600;
+    color: green;
+
+}
+.new-user-item input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.new-user-gender input{
+margin-top: 15px;
+
+}
+.new-user-gender label{
+    margin: 10px;
+    font-size: 1.2rem;
+    color: #555;
+}
+.new-user-item select{
+    border-radius: 5px;
+    height: 40px;
+    border-radius: 50x;
+    border: 1px solid gray;
+}
+.new-user-button{
+    width: 200px;
+    background: darkblue;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+@media (max-width:1110px) {
+    .NewUser form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+     
+    }
+    .new-user-button{
+        margin-bottom: 30px;
+    }
+}
+
